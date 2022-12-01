@@ -1,0 +1,11 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
