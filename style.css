@@ -1,6 +1,20 @@
-img {
+* {
+    /* border: darkred 1px solid; */
+    /* padding: 40px */
+}
+
+body {
+    color: antiquewhite;
+    background-color: black;
+}
+
+.img-container img {
     max-width: 100%;
-    height: auto;
+    display: block;
+    margin: auto;
+    /* margin: 0% 50% 0% 50%; */
+    border: #707070 2px solid;
+    border-radius: 10%;
 }
 
 h1.title {
@@ -9,7 +23,23 @@ h1.title {
     text-decoration: underline;
     text-decoration-style: wavy;
 }
-ul {
+
+.description,
+.ingredients,
+.directions {
+    background-color: rgb(75, 71, 2);
+    border: 1px blue solid;
+    border-radius: 30px;
+    text-align: center; /* looks ugly */
+    padding-left: 10%;
+}
+
+div > h2:first-child {
+    color: red;
+    text-decoration: underline;
+}
+
+ul.fancy {
     font-size: xx-large;
-    font-family:"Monotype Corsiva", "Ink Free", cursive;
+    font-family: "Monotype Corsiva", "Ink Free", cursive;
 }
